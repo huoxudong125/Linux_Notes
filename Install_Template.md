@@ -1,6 +1,6 @@
 #Install_Maven.md
 
-##Download
+##Prerequisites
 
 ##Enviroment Settings
 
