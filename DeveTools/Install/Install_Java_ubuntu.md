@@ -1,7 +1,7 @@
 #Install_Java_ubuntu
 
 
-想知道**如何在Ubuntu 14.04中安装Java**？安装Java肯定是[安装Ubuntu 14.04后首先要做的几件事情之一](https://linux.cn/1)，而且这也很简单。
+想知道**如何在Ubuntu 14.04中安装Java**？安装Java肯定是[安装Ubuntu 14.04后首先要做的几件事情之一](https://linux.cn/)，而且这也很简单。
 
 许多人比较厌恶Java，但是很有可能因为某些原因你需要安装Java，尽管你很讨厌它。在这篇文章中，我们将展示如何在Ubuntu 14.04安装Java（也可能在Linux Mint 17同样适用）。
 
