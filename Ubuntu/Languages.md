@@ -1,0 +1,30 @@
+设置中文环境也比较简单，需要三步。  
+##第一步，安装中文包：
+
+sudo apt-get install language-pack-zh language-pack-zh-base  
+有朋友留言反馈到应该执行下面的命令，我现在已经用Ubuntu12.10，未测试  
+
+sudo apt-get install language-pack-zh-hant language-pack-zh-hans
+
+##第二步，配置相关环境变量：
+
+sudo vim /etc/environment
+
+在文件中增加语言和编码的设置：
+
+LANG="zh_CN.UTF-8"  
+LANGUAGE="zh_CN:zh:en_US:en"
+
+我的配置文件显示如下：  
+
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"  
+LANG="zh_CN.UTF-8"  
+UNZIP="-O CP936"  
+ZIPINFO="-O CP936"
+
+##第三步，重新设置本地配置：
+
+sudo dpkg-reconfigure locales
+
+
+另外就是要有一个支持utf8的终端软件，可参考文档SSH Secure Shell Client的替代方案，这是解决ssh命令行登录和sftp文件传输的。我喜欢用SecureCRT，sz和rz命令异常好用，当然，这只是客户端和服务器之间的交互。服务器与服务器之间还是scp来得方便。
