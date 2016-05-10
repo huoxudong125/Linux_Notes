@@ -14,7 +14,7 @@ zh_CN GB2312
 
 2.
 ```
-sudo vim /var/lib/locales/supported.d/local`
+sudo vim /var/lib/locales/supported.d/local
 ```
 说明：打开系统字符集配置文件，将支持的中文字符集添加进去，格式如1中得到所示。
 
